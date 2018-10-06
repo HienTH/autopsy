@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="OptionsDialog">
+        <file name="org-sleuthkit-autopsy-experimental-configuration-AutoIngestSettingsPanelController.instance">
+            <!--org.sleuthkit.autopsy.experimental.configuration.AutoIngestSettingsPanelController-->
+            <attr
+                methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+            <attr name="controller" newvalue="org.sleuthkit.autopsy.experimental.configuration.AutoIngestSettingsPanelController"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.experimental.configuration.Bundle#OptionsCategory_Name_Auto_Ingest" name="categoryName"/>
+            <attr intvalue="4" name="position"/>
+            <attr name="iconBase" stringvalue="org/sleuthkit/autopsy/experimental/images/autoIngest32.png"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.experimental.configuration.Bundle#OptionsCategory_Keywords_Auto_Ingest_Settings" name="keywords"/>
+            <attr name="keywordsCategory" stringvalue="Auto Ingest"/>
+        </file>
+    </folder>
+    <folder name="Actions">
+        <folder name="Tools">
+            <file name="org-sleuthkit-autopsy-experimental-autoingest-AutoIngestDashboardOpenAction.instance">
+                <!--org.sleuthkit.autopsy.experimental.autoingest.AutoIngestDashboardOpenAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.experimental.autoingest.Bundle#CTL_AutoIngestDashboardOpenAction" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.experimental.autoingest.AutoIngestDashboardOpenAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Tools">
+            <file name="org-sleuthkit-autopsy-experimental-autoingest-AutoIngestDashboardOpenAction.shadow">
+                <!--org.sleuthkit.autopsy.experimental.autoingest.AutoIngestDashboardOpenAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-sleuthkit-autopsy-experimental-autoingest-AutoIngestDashboardOpenAction.instance"/>
+                <attr intvalue="201" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="AutoIngestDashboardTopComponent.settings">
+                <!--org.sleuthkit.autopsy.experimental.autoingest.AutoIngestDashboardTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.sleuthkit.autopsy.experimental.autoingest.AutoIngestDashboardTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="dashboard">
+                <file name="AutoIngestDashboardTopComponent.wstcref">
+                    <!--org.sleuthkit.autopsy.experimental.autoingest.AutoIngestDashboardTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="AutoIngestDashboardTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,12 @@
+org.sleuthkit.autopsy.centralrepository.ingestmodule.IngestModuleFactory
+org.sleuthkit.autopsy.examples.SampleIngestModuleFactory
+org.sleuthkit.autopsy.modules.e01verify.E01VerifierModuleFactory
+org.sleuthkit.autopsy.modules.embeddedfileextractor.EmbeddedFileExtractorModuleFactory
+org.sleuthkit.autopsy.modules.encryptiondetection.EncryptionDetectionModuleFactory
+org.sleuthkit.autopsy.modules.exif.ExifParserModuleFactory
+org.sleuthkit.autopsy.modules.fileextmismatch.FileExtMismatchDetectorModuleFactory
+org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdModuleFactory
+org.sleuthkit.autopsy.modules.hashdatabase.HashLookupModuleFactory
+org.sleuthkit.autopsy.modules.interestingitems.InterestingItemsIngestModuleFactory
+org.sleuthkit.autopsy.modules.photoreccarver.PhotoRecCarverIngestModuleFactory
+org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModuleFactory

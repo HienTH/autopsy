@@ -1,0 +1,120 @@
+2018-10-02 10:08:16.56 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closed current case Test7 (test7_20181002_091338) in /media/lete/01D2F6F7D0C2FB80/NCKH_2018/Test7
+2018-10-02 10:08:16.686 org.sleuthkit.autopsy.corecomponentinterfaces.CoreComponentControl closeCoreWindows
+INFO: tcName was null
+2018-10-02 10:08:17.113 org.sleuthkit.autopsy.imagegallery.gui.Toolbar initialize
+WARNING: Could not create Follow Up tag menu item
+org.sleuthkit.datamodel.TskCoreException: Error getting case database connection - case is closed
+	org.sleuthkit.datamodel.SleuthkitCase$ConnectionPool.getConnection(SleuthkitCase.java:8388)
+	org.sleuthkit.datamodel.SleuthkitCase.getAllTagNames(SleuthkitCase.java:7190)
+	org.sleuthkit.autopsy.casemodule.services.TagsManager.getDisplayNamesToTagNamesMap(TagsManager.java:190)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableTagsManager.getTagName(DrawableTagsManager.java:212)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableTagsManager.getFollowUpTagName(DrawableTagsManager.java:141)
+	org.sleuthkit.autopsy.imagegallery.gui.Toolbar.initialize(Toolbar.java:134)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2566)
+	javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2441)
+	javafx.fxml.FXMLLoader.load(FXMLLoader.java:2409)
+	org.sleuthkit.autopsy.imagegallery.FXMLConstructor.construct(FXMLConstructor.java:50)
+	org.sleuthkit.autopsy.imagegallery.gui.Toolbar.<init>(Toolbar.java:251)
+	org.sleuthkit.autopsy.imagegallery.ImageGalleryTopComponent.lambda$new$1(ImageGalleryTopComponent.java:136)
+	com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	java.security.AccessController.doPrivileged(Native Method)
+	com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+	com.sun.glass.ui.gtk.GtkApplication.lambda$null$48(GtkApplication.java:139)
+	java.lang.Thread.run(Thread.java:748)
+2018-10-02 10:08:17.293 org.sleuthkit.autopsy.communications.FiltersPanel updateDeviceFilter
+WARNING: Communications Visualization Tool opened with no open case.
+java.lang.IllegalStateException: Không thể nhận được hồ sơ hiện tại; không có hồ sơ nào mở !
+	org.sleuthkit.autopsy.casemodule.Case.getCurrentCase(Case.java:603)
+	org.sleuthkit.autopsy.communications.FiltersPanel.updateDeviceFilter(FiltersPanel.java:232)
+	org.sleuthkit.autopsy.communications.FiltersPanel.updateFilters(FiltersPanel.java:170)
+	org.sleuthkit.autopsy.communications.FiltersPanel.<init>(FiltersPanel.java:109)
+	org.sleuthkit.autopsy.communications.CVTTopComponent.initComponents(CVTTopComponent.java:79)
+	org.sleuthkit.autopsy.communications.CVTTopComponent.<init>(CVTTopComponent.java:47)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	org.netbeans.modules.settings.convertors.XMLSettingsSupport.newInstance(XMLSettingsSupport.java:100)
+	org.netbeans.modules.settings.convertors.XMLSettingsSupport$SettingsRecognizer.instanceCreate(XMLSettingsSupport.java:628)
+	org.netbeans.modules.settings.convertors.SerialDataConvertor$SettingsInstance.instanceCreate(SerialDataConvertor.java:426)
+	org.netbeans.core.windows.persistence.PersistenceManager.getTopComponentPersistentForID(PersistenceManager.java:571)
+	org.netbeans.core.windows.persistence.PersistenceManager.getTopComponentForID(PersistenceManager.java:681)
+	org.netbeans.core.windows.PersistenceHandler.getTopComponentForID(PersistenceHandler.java:478)
+	org.netbeans.core.windows.WindowManagerImpl.getTopComponentForID(WindowManagerImpl.java:962)
+	org.netbeans.core.windows.model.TopComponentSubModel.getTopComponent(TopComponentSubModel.java:378)
+	org.netbeans.core.windows.model.TopComponentSubModel.getTopComponents(TopComponentSubModel.java:90)
+	org.netbeans.core.windows.model.DefaultModeModel.getTopComponents(DefaultModeModel.java:356)
+	org.netbeans.core.windows.model.DefaultModel.getModeTopComponents(DefaultModel.java:944)
+	org.netbeans.core.windows.Central.getModeTopComponents(Central.java:1577)
+	org.netbeans.core.windows.ModeImpl.getTopComponents(ModeImpl.java:220)
+	org.sleuthkit.autopsy.corecomponentinterfaces.CoreComponentControl.closeCoreWindows(CoreComponentControl.java:98)
+	org.sleuthkit.autopsy.casemodule.Case.lambda$updateGUIForCaseClosed$4(Case.java:1103)
+	java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	java.awt.EventQueue.access$500(EventQueue.java:97)
+	java.awt.EventQueue$3.run(EventQueue.java:709)
+	java.awt.EventQueue$3.run(EventQueue.java:703)
+	java.security.AccessController.doPrivileged(Native Method)
+	java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-10-02 10:08:17.766 org.sleuthkit.autopsy.imagegallery.gui.drawableviews.GroupPane lambda$initialize$7
+WARNING: failed to load FollowUpTagName
+org.sleuthkit.datamodel.TskCoreException: Error getting case database connection - case is closed
+	org.sleuthkit.datamodel.SleuthkitCase$ConnectionPool.getConnection(SleuthkitCase.java:8388)
+	org.sleuthkit.datamodel.SleuthkitCase.getAllTagNames(SleuthkitCase.java:7190)
+	org.sleuthkit.autopsy.casemodule.services.TagsManager.getDisplayNamesToTagNamesMap(TagsManager.java:190)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableTagsManager.getTagName(DrawableTagsManager.java:212)
+	org.sleuthkit.autopsy.imagegallery.datamodel.DrawableTagsManager.getFollowUpTagName(DrawableTagsManager.java:141)
+	org.sleuthkit.autopsy.imagegallery.gui.drawableviews.GroupPane.lambda$initialize$7(GroupPane.java:431)
+	com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295)
+	java.security.AccessController.doPrivileged(Native Method)
+	com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294)
+	com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+	com.sun.glass.ui.gtk.GtkApplication.lambda$null$48(GtkApplication.java:139)
+	java.lang.Thread.run(Thread.java:748)
+2018-10-02 10:08:19.721 org.sleuthkit.autopsy.keywordsearch.Server stop
+INFO: Stopping Solr server from: /home/lete/AutoPsy/build/cluster/solr
+2018-10-02 10:08:19.721 org.sleuthkit.autopsy.keywordsearch.Server runSolrCommand
+INFO: Running Solr command: [java, -Xmx512m, -DSTOP.PORT=34343, -Djetty.port=23232, -DSTOP.KEY=jjk#09s, -jar, start.jar, --stop]
+2018-10-02 10:08:19.728 org.sleuthkit.autopsy.keywordsearch.Server runSolrCommand
+INFO: Finished running Solr command
+2018-10-02 10:08:19.729 org.sleuthkit.autopsy.keywordsearch.Server stop
+INFO: Waiting for Solr server to stop
+2018-10-02 10:08:20.03 org.sleuthkit.autopsy.keywordsearch.Server killSolr
+INFO: Trying to kill old Solr process, PID: 10,393
+2018-10-02 10:08:20.033 org.sleuthkit.autopsy.keywordsearch.Server stop
+INFO: Finished stopping Solr server
+2018-10-02 10:08:20.033 org.sleuthkit.autopsy.core.Installer <init>
+INFO: core installer created
+2018-10-02 10:08:20.709 org.sleuthkit.autopsy.core.Installer close
+INFO: close()
+2018-10-02 10:08:20.71 org.sleuthkit.autopsy.core.Installer close
+INFO: org.sleuthkit.autopsy.coreutils.Installer close()
+2018-10-02 10:08:20.71 org.sleuthkit.autopsy.core.Installer close
+INFO: org.sleuthkit.autopsy.corecomponents.Installer close()
+2018-10-02 10:08:20.71 org.sleuthkit.autopsy.core.Installer close
+INFO: org.sleuthkit.autopsy.datamodel.Installer close()
+2018-10-02 10:08:20.711 org.sleuthkit.autopsy.core.Installer close
+INFO: org.sleuthkit.autopsy.ingest.Installer close()
+2018-10-02 10:08:20.711 org.sleuthkit.autopsy.core.Installer close
+INFO: org.sleuthkit.autopsy.centralrepository.eventlisteners.Installer close()

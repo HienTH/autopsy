@@ -1,0 +1,2 @@
+org.sleuthkit.autopsy.modules.fileextmismatch.FileExtMismatchContextMenuActionsProvider
+org.sleuthkit.autopsy.modules.hashdatabase.HashDbContextMenuActionsProvider

@@ -1,0 +1,99 @@
+/*! \page mod_dev_py_page Python Development Setup
+
+<!-- NOTE: This doc contains the concepts that apply when developing
+any type of module. Information about specific types of modules should
+go into the page for that module type. -->
+
+This page describes the basic concepts and setup that are needed for all types of Python modules. It is not needed if you are doing only Java module development.
+
+Autopsy uses Jython (http://www.jython.org) to enable Python scripting. Jython looks like Python and gets converted into Java byte code and runs on the JVM.  Its biggest limitations are:
+- Limited to Python 2.7 (as of Autopsy 3.1.3)
+- Can't use Python libraries that have native code
+- You can't easily make UIs.  This means that you can't make content viewer modules or easily have configuration settings for your ingest modules.   We have done it, but it is tedious compared to using a Java tool to place UI widgets in various places. 
+
+Using it is very easy though in Autopsy and it allows you to access all of the Java services and classes that you need. 
+
+To develop a module, you should follow this section to get your environment setup and then read the later sections on the different types of modules. 
+
+There are also a set of tutorials that Basis Technology published on their blog.  While not as thorough as this documentation, they are an easy introduction to the general ideas. 
+
+- File Ingest Modules: http://www.basistech.com/python-autopsy-module-tutorial-1-the-file-ingest-module/
+- Data Source Ingest Modules: http://www.basistech.com/python-autopsy-module-tutorial-2-the-data-source-ingest-module/
+- Report Modules: http://www.basistech.com/python-autopsy-module-tutorial-3-the-report-module/
+
+
+\section mod_dev_py_setup Basic Setup
+
+-You don't really need anything to develop a python Autopsy module except for the standard Autopsy and your favorite text editor. We recommend IntelliJ IDEA or the Jython plug-in to NetBeans.
+
+To install NetBeans' plug-in:
+-# Download and install the Jython 2.7 installer to desired location (http://www.jython.org/downloads.html).
+-# Download NetBeans Python plug-in zip file (http://plugins.netbeans.org/plugin/56795/python4netbeans802).
+-# Unpack the content (.nbm files) of the zip file to the desired location.
+-# In NetBeans go to Tools->Plugins. In Downloaded tab, click on Add Plugins, then choose extracted .nbm files.
+-# Setup Jython path from Tools->Python Platforms, click on new, then choose Jython.exe (usually in C:\\Program files\\Jython2.7\\bin)
+
+To install IntelliJ IDEA + Python plug-in:
+-# Download java JDK depending on platform. Install to desired location (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+-# Download and install IDEA Community Edition to desired location (https://www.jetbrains.com/idea/download/).
+-# Open IDEA and choose desired UI theme. Continue with default settings.
+-# Choose to either create a new empty project or open an existing one.
+-# It will ask you to modify Project Structure. Leave that for now and click OK.
+-# In File->Settings. Go to Plugins tab and click on Install JetBrains Plugin.
+-# Look for and install Python Community Edition. After the installation, it will ask you restart. Restart IDEA.
+-# In File->Project Structure. In Project tab, Project SDK, click on New and choose IntelliJ Platform Plugin SKD.
+-# It will ask you to configure the JKD first, click OK and navigate to the JDK folder location and click OK.
+-# After that it will ask you to choose the IntelliJ Platform Plugin SKD. It will most likely take you to it's location automatically. (Usually in C:\\Program Files (x86)\\JetBrains\\IntelliJ IDEA Community Edition 14.1.5)
+-# In the drop down menu next to New button, choose IntelliJ IDEA Community Edition.
+-# Still in Project STructure, In Libraries tab, click on '+' to add new libraries. Choose desired autopsy modules (usually in C:\\Program Files\\Autopsy-3.1.3\\autopsy\\modules if you have executable version).
+
+\section mod_dev_py_create Creating a Basic Python Module
+
+\subsection mod_dev_py_create_dir Packaging Structure
+
+Autopsy requires that you put all of your Python modules into a single folder.  This prevents naming collisions with other modules. You can name the folder what ever you want. You'll need to put all of the libraries that you depend on in there too. 
+
+You will need to copy this folder into Autopsy's Python script folder. Autopsy will scan this folder each time it looks for modules. You can find the location of this folder from the "Tools -> Python Scripts" menu item.  
+
+
+\subsection mod_dev_py_create_create Module Creation
+
+We have a growing number of sample Python scripts and therefore the easiest starting point for any Python script is probably to start with one of the public domain examples.  This approach is a bit different than what you'd find with Java because the Java environment auto-creates the modules more. 
+
+This is the basic approach:
+
+-# Create a folder referenced in \ref mod_dev_py_create_dir. 
+-# Copy one of the sample modules from the github repository (https://github.com/sleuthkit/autopsy/tree/develop/pythonExamples)
+-# Edit the sample module by looking for "TODO" references. 
+
+That's it. Autopsy will find the module each time it needs it and you can make updates without having to restart Autopsy each time. 
+
+
+\subsection mod_dev_py_library Using External Libraries
+
+If you need to bring in a library that is not part of the standard Jython distribution, then do the following:
+
+-# Copy the library file or folder into the folder that you made in \ref mod_dev_py_create_dir.  For example, you may copy in folder called 'neededLib' that has a file named mylib.py in it.  The end result be a folder structure such as myModuleFolder/neededLib/mylib.py.
+-# In your Python code, if you needed a class from mylib, then you'd have a line such as:
+\code{.py}
+from neededLib.mylib import neededClass
+\endcode  
+
+Jython will look in the module's folder to resolve these libraries. 
+
+If you bring in a library that uses native code, then you will get a runtime error when you try to load it.
+
+
+\subsection mod_dev_py_misc Minor Gotchas 
+This section lists some helpful tips that we have found.  These are all now in the sample modules, so refer to those for examples and a place to copy and paste from.
+- We haven't found a good way to debug while running inside of Autopsy.  So, logging becomes critical. You need to go through a bunch of steps to get the logger to display your module name.  See the sample module for a log() method that does all of this for you.
+- When you name the file with your Python module in it, restrict its name to letters, numbers, and underscore (_).
+- Python modules using external libraries which load native code (SciPy, NumPy, etc.) are currently NOT supported. RuntimeError will be thrown.
+
+
+\section mod_dev_py_distribute Distribution
+To distribute and share your Python module, ZIP up the folder and send it around.  Other users of the module should expand the ZIP file and drop the folder into their Autopsy Python folder. 
+
+
+*/
+

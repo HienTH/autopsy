@@ -1,0 +1,51 @@
+/*! \page mod_result_page Developing Result Viewer Modules
+
+\section result_overview Overview
+DataResultViewer modules exist in the upper-right area of the default Autopsy interface, as shown below.  
+
+\image html viewer_image.JPG "Module Viewer Areas" 
+
+They display a set of files that are passed into the viewer from the tree on the left, keyword searching, or other searches. The main idea is that the same set of files can be viewed in table form, thumbnail form, or any other form that you can think of.  Once a file is selected from the DataResult area, it is passed to the DataContent area for display. 
+
+\section result_dataflow Data Flow
+This section provides some basics on DataResult viewers.  DataResult viewers are created as needed.  The directory tree on the left creates one when it loads and uses it for the life of the application.  The keyword search module creates on each time it performs a keyword search. Data is explicitly passed into it. 
+
+By default, when a node is selected, it is then passed to the default DataContent viewer (this is done in org.sleuthkit.autopsy.corecomponents.AbstractDataResultViewer). There can be many data content viewers, but only one default one exists. 
+
+The org.sleuthkit.autopsy.corecomponents.DataResultViewerTopComponent class is the NetBeans TopComponent that encapsulates the various DataResult viewer modules. It creates tabs for each DataResult viewer module.  
+
+\section result_nb NetBeans Module Configuration
+The rest of the document assumes that you have already created your NetBeans module, as outlined in \ref mod_dev_module. 
+
+DataResultViewer modules will have additional NetBeans dependencies. Right click on the module, choose "Properties" -> "Libraries" -> "Module Dependencies".  Add "Lookup API" and "Nodes API".
+
+\section result_mod Module Development
+
+You will need a class that extends org.sleuthkit.autopsy.corecomponents.AbstractDataResultViewer. You can use NetBeans to make a class, manually extend it, and then let NetBeans complain about missing methods.  It will provide default implementations for them if you click on the error messages in the UI.
+Refer to the documentation in org.sleuthkit.autopsy.corecomponentinterfaces.DataResultViewer on what each method should do. Note that AbstractDataResultViewer extends JPanel.
+
+Autopsy will find your module using the NetBeans Lookup infrastructure. To be found, you will need to register as a service provider for DataResultViewer.class by annotating your class as follows:
+
+\code
+@ServiceProvider(service = DataResultViewer.class)
+public class DataResultViewerTable extends AbstractDataResultViewer {
+\endcode
+
+If you get errors about not knowing about ServiceProviders and such, ensure that you configured your NetBeans module to depend on the Nodes and Lookup APIs as outlined in the previous section. 
+
+The current modules in this viewer area heavily use the NetBeans ExplorerManger and Node concepts. You do not need to use ExplorerManager concepts, but you will need to use Node concepts to identify the set of nodes to display and to extract the datamodel objects from each Node object.  Refer to \ref content_hints_objects for hints on getting the datamodel objects from the Node. 
+
+\section result_examples Example Modules
+You can refer to the org.sleuthkit.autopsy.corecomponents.DataResultViewerTable and  org.sleuthkit.autopsy.corecomponents.DataResultViewerThumbnail modules to follow as examples. 
+
+\section result_hint Hints
+
+Note that we have made the least number of these types of modules, so some work could be done to make the framework and infrastuture for them better. 
+
+These modules are currently the most challenging to develop because they require the most NetBeans knowledge about Nodes and ExplorerManagers. Make sure you read some of the tutorials (or books) first:
+- NetBeans Nodes API Tutorial (https://platform.netbeans.org/tutorials/nbm-nodesapi2.html)
+- NetBeans Nodes, Explorer Manager, and Component Palette Tutorial (https://platform.netbeans.org/tutorials/nbm-nodesapi3.html)
+
+We have plans to change the design a bit in the future so that an ExplorerManager is created for each DataResultViewerTopComponent instance and each individual module does not need to make one. Instead, one will be given to it. 
+
+*/

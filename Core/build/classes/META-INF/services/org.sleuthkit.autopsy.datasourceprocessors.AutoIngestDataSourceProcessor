@@ -1,0 +1,3 @@
+org.sleuthkit.autopsy.casemodule.ImageDSProcessor
+org.sleuthkit.autopsy.casemodule.LocalDiskDSProcessor
+org.sleuthkit.autopsy.casemodule.LocalFilesDSProcessor

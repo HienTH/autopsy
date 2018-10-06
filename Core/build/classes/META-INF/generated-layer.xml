@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Case">
+            <file name="org-sleuthkit-autopsy-casemodule-ExitAction.instance">
+                <!--org.sleuthkit.autopsy.actions.ExitAction-->
+                <attr name="displayName" stringvalue="Thoát"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.sleuthkit.autopsy.actions.ExitAction"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-casemodule-CaseOpenAction.instance">
+                <!--org.sleuthkit.autopsy.casemodule.CaseOpenAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.casemodule.Bundle#CTL_CaseOpenAction" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.casemodule.CaseOpenAction"/>
+            </file>
+        </folder>
+        <folder name="Help">
+            <file name="org-sleuthkit-autopsy-actions-OpenLogFolderAction.instance">
+                <!--org.sleuthkit.autopsy.actions.OpenLogFolderAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.actions.Bundle#CTL_OpenLogFolder" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.sleuthkit.autopsy.actions.OpenLogFolderAction"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-actions-OpenOutputFolderAction.instance">
+                <!--org.sleuthkit.autopsy.actions.OpenOutputFolderAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.actions.Bundle#CTL_OpenOutputFolder" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.actions.OpenOutputFolderAction"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-actions-ShowIngestProgressSnapshotAction.instance">
+                <!--org.sleuthkit.autopsy.actions.ShowIngestProgressSnapshotAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.actions.Bundle#CTL_ShowIngestProgressSnapshotAction" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.actions.ShowIngestProgressSnapshotAction"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-corecomponents-AboutWindowAction.instance">
+                <!--org.sleuthkit.autopsy.corecomponents.AboutWindowAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.corecomponents.Bundle#CTL_CustomAboutAction" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.corecomponents.AboutWindowAction"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-corecomponents-OfflineHelpAction.instance">
+                <!--org.sleuthkit.autopsy.corecomponents.OfflineHelpAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.corecomponents.Bundle#CTL_OfflineHelpAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.sleuthkit.autopsy.corecomponents.OfflineHelpAction"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-corecomponents-OnlineHelpAction.instance">
+                <!--org.sleuthkit.autopsy.corecomponents.OnlineHelpAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.corecomponents.Bundle#CTL_OnlineHelpAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.sleuthkit.autopsy.corecomponents.OnlineHelpAction"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-diagnostics-PerformancePanelAction.instance">
+                <!--org.sleuthkit.autopsy.diagnostics.PerformancePanelAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.diagnostics.Bundle#CTL_PerformancePanelAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.sleuthkit.autopsy.diagnostics.PerformancePanelAction"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Tools">
+            <file name="org-sleuthkit-autopsy-actions-OpenPythonModulesFolderAction.instance">
+                <!--org.sleuthkit.autopsy.actions.OpenPythonModulesFolderAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.actions.Bundle#CTL_OpenPythonModulesFolderAction" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.actions.OpenPythonModulesFolderAction"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-casemodule-AddImageAction.instance">
+                <!--org.sleuthkit.autopsy.casemodule.AddImageAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.casemodule.Bundle#CTL_AddImage" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.casemodule.AddImageAction"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-casemodule-CaseCloseAction.instance">
+                <!--org.sleuthkit.autopsy.casemodule.CaseCloseAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.casemodule.Bundle#CTL_CaseCloseAct" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.casemodule.CaseCloseAction"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-communicationsVisualization-OpenCVTAction.instance">
+                <!--org.sleuthkit.autopsy.communications.OpenCommVisualizationToolAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.communications.Bundle#CTL_OpenCVTAction" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.communications.OpenCommVisualizationToolAction"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-ingest-RunIngestAction.instance">
+                <!--org.sleuthkit.autopsy.ingest.RunIngestAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.ingest.Bundle#CTL_RunIngestAction" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.ingest.RunIngestAction"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-livetriage-CreateLiveTriageDriveAction.instance">
+                <!--org.sleuthkit.autopsy.livetriage.CreateLiveTriageDriveAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.livetriage.Bundle#CTL_CreateLiveTriageDriveAction" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.livetriage.CreateLiveTriageDriveAction"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-report-ReportWizardAction.instance">
+                <!--org.sleuthkit.autopsy.report.ReportWizardAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.report.Bundle#CTL_ReportWizardAction" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.report.ReportWizardAction"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-timeline-Timeline.instance">
+                <!--org.sleuthkit.autopsy.timeline.OpenTimelineAction-->
+                <attr
+                    bundlevalue="org.sleuthkit.autopsy.timeline.Bundle#CTL_MakeTimeline" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.sleuthkit.autopsy.timeline.OpenTimelineAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Case">
+            <file name="org-sleuthkit-autopsy-casemodule-ExitAction.shadow">
+                <!--org.sleuthkit.autopsy.actions.ExitAction-->
+                <attr name="originalFile" stringvalue="Actions/Case/org-sleuthkit-autopsy-casemodule-ExitAction.instance"/>
+                <attr intvalue="1000" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-casemodule-ExitAction-separatorBefore.instance">
+                <!--org.sleuthkit.autopsy.actions.ExitAction-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="999" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-actions-OpenOutputFolderAction.shadow">
+                <!--org.sleuthkit.autopsy.actions.OpenOutputFolderAction-->
+                <attr name="originalFile" stringvalue="Actions/Help/org-sleuthkit-autopsy-actions-OpenOutputFolderAction.instance"/>
+                <attr intvalue="302" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-casemodule-CaseOpenAction.shadow">
+                <!--org.sleuthkit.autopsy.casemodule.CaseOpenAction-->
+                <attr name="originalFile" stringvalue="Actions/Case/org-sleuthkit-autopsy-casemodule-CaseOpenAction.instance"/>
+                <attr intvalue="102" name="position"/>
+            </file>
+        </folder>
+        <folder name="Help">
+            <file name="org-sleuthkit-autopsy-actions-OpenLogFolderAction.shadow">
+                <!--org.sleuthkit.autopsy.actions.OpenLogFolderAction-->
+                <attr name="originalFile" stringvalue="Actions/Help/org-sleuthkit-autopsy-actions-OpenLogFolderAction.instance"/>
+                <attr intvalue="1750" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-actions-ShowIngestProgressSnapshotAction.shadow">
+                <!--org.sleuthkit.autopsy.actions.ShowIngestProgressSnapshotAction-->
+                <attr name="originalFile" stringvalue="Actions/Help/org-sleuthkit-autopsy-actions-ShowIngestProgressSnapshotAction.instance"/>
+                <attr intvalue="1125" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-corecomponents-AboutWindowAction.shadow">
+                <!--org.sleuthkit.autopsy.corecomponents.AboutWindowAction-->
+                <attr name="originalFile" stringvalue="Actions/Help/org-sleuthkit-autopsy-corecomponents-AboutWindowAction.instance"/>
+                <attr intvalue="3000" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-corecomponents-OfflineHelpAction.shadow">
+                <!--org.sleuthkit.autopsy.corecomponents.OfflineHelpAction-->
+                <attr name="originalFile" stringvalue="Actions/Help/org-sleuthkit-autopsy-corecomponents-OfflineHelpAction.instance"/>
+                <attr intvalue="1" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-corecomponents-OnlineHelpAction.shadow">
+                <!--org.sleuthkit.autopsy.corecomponents.OnlineHelpAction-->
+                <attr name="originalFile" stringvalue="Actions/Help/org-sleuthkit-autopsy-corecomponents-OnlineHelpAction.instance"/>
+                <attr intvalue="0" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-diagnostics-PerformancePanelAction.shadow">
+                <!--org.sleuthkit.autopsy.diagnostics.PerformancePanelAction-->
+                <attr name="originalFile" stringvalue="Actions/Help/org-sleuthkit-autopsy-diagnostics-PerformancePanelAction.instance"/>
+                <attr intvalue="1437" name="position"/>
+            </file>
+        </folder>
+        <folder name="Tools">
+            <file name="org-sleuthkit-autopsy-actions-OpenPythonModulesFolderAction.shadow">
+                <!--org.sleuthkit.autopsy.actions.OpenPythonModulesFolderAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-sleuthkit-autopsy-actions-OpenPythonModulesFolderAction.instance"/>
+                <attr intvalue="1400" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-communicationsVisualization-OpenCVTAction.shadow">
+                <!--org.sleuthkit.autopsy.communications.OpenCommVisualizationToolAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-sleuthkit-autopsy-communicationsVisualization-OpenCVTAction.instance"/>
+                <attr intvalue="102" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-livetriage-CreateLiveTriageDriveAction.shadow">
+                <!--org.sleuthkit.autopsy.livetriage.CreateLiveTriageDriveAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-sleuthkit-autopsy-livetriage-CreateLiveTriageDriveAction.instance"/>
+                <attr intvalue="1401" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-report-ReportWizardAction.shadow">
+                <!--org.sleuthkit.autopsy.report.ReportWizardAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-sleuthkit-autopsy-report-ReportWizardAction.instance"/>
+                <attr intvalue="103" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-timeline-Timeline.shadow">
+                <!--org.sleuthkit.autopsy.timeline.OpenTimelineAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-sleuthkit-autopsy-timeline-Timeline.instance"/>
+                <attr intvalue="102" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="Case">
+            <file name="org-sleuthkit-autopsy-casemodule-AddImageAction.shadow">
+                <!--org.sleuthkit.autopsy.casemodule.AddImageAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-sleuthkit-autopsy-casemodule-AddImageAction.instance"/>
+                <attr intvalue="100" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-casemodule-CaseCloseAction.shadow">
+                <!--org.sleuthkit.autopsy.casemodule.CaseCloseAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-sleuthkit-autopsy-casemodule-CaseCloseAction.instance"/>
+                <attr intvalue="104" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-report-ReportWizardAction.shadow">
+                <!--org.sleuthkit.autopsy.report.ReportWizardAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-sleuthkit-autopsy-report-ReportWizardAction.instance"/>
+                <attr intvalue="103" name="position"/>
+            </file>
+            <file name="org-sleuthkit-autopsy-timeline-Timeline.shadow">
+                <!--org.sleuthkit.autopsy.timeline.OpenTimelineAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-sleuthkit-autopsy-timeline-Timeline.instance"/>
+                <attr intvalue="102" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="F2.shadow">
+            <!--org.sleuthkit.autopsy.corecomponents.OfflineHelpAction-->
+            <attr name="originalFile" stringvalue="Actions/Help/org-sleuthkit-autopsy-corecomponents-OfflineHelpAction.instance"/>
+        </file>
+        <file name="F1.shadow">
+            <!--org.sleuthkit.autopsy.corecomponents.OnlineHelpAction-->
+            <attr name="originalFile" stringvalue="Actions/Help/org-sleuthkit-autopsy-corecomponents-OnlineHelpAction.instance"/>
+        </file>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="CVTTopComponent.settings">
+                <!--org.sleuthkit.autopsy.communications.CVTTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.sleuthkit.autopsy.communications.CVTTopComponent"/>
+</settings>
+]]></file>
+            <file name="TimeLineTopComponent.settings">
+                <!--org.sleuthkit.autopsy.timeline.TimeLineTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.sleuthkit.autopsy.timeline.TimeLineTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="cvt">
+                <file name="CVTTopComponent.wstcref">
+                    <!--org.sleuthkit.autopsy.communications.CVTTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="CVTTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+            <folder name="timeline">
+                <file name="TimeLineTopComponent.wstcref">
+                    <!--org.sleuthkit.autopsy.timeline.TimeLineTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TimeLineTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="OptionsDialog">
+        <file name="org-sleuthkit-autopsy-casemodule-services-TagsOptionsPanelController.instance">
+            <!--org.sleuthkit.autopsy.casemodule.services.TagsOptionsPanelController-->
+            <attr
+                methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+            <attr name="controller" newvalue="org.sleuthkit.autopsy.casemodule.services.TagsOptionsPanelController"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.casemodule.services.Bundle#OptionsCategory_Name_TagNamesOptions" name="categoryName"/>
+            <attr intvalue="11" name="position"/>
+            <attr name="iconBase" stringvalue="org/sleuthkit/autopsy/casemodule/services/tag-options-panel-icon.png"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.casemodule.services.Bundle#OptionsCategory_TagNames" name="keywords"/>
+            <attr name="keywordsCategory" stringvalue="CustomTagNames"/>
+        </file>
+        <file name="org-sleuthkit-autopsy-centralrepository-optionspanel-EamOptionsPanelController.instance">
+            <!--org.sleuthkit.autopsy.centralrepository.optionspanel.EamOptionsPanelController-->
+            <attr
+                methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+            <attr name="controller" newvalue="org.sleuthkit.autopsy.centralrepository.optionspanel.EamOptionsPanelController"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.centralrepository.optionspanel.Bundle#OptionsCategory_Name_Central_Repository_Options" name="categoryName"/>
+            <attr intvalue="14" name="position"/>
+            <attr name="iconBase" stringvalue="org/sleuthkit/autopsy/centralrepository/images/options-icon.png"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.centralrepository.optionspanel.Bundle#OptionsCategory_Keywords_Central_Repository_Options" name="keywords"/>
+            <attr name="keywordsCategory" stringvalue="CentralRepository"/>
+        </file>
+        <file name="org-sleuthkit-autopsy-corecomponents-AutopsyOptionsPanelController.instance">
+            <!--org.sleuthkit.autopsy.corecomponents.AutopsyOptionsPanelController-->
+            <attr
+                methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+            <attr name="controller" newvalue="org.sleuthkit.autopsy.corecomponents.AutopsyOptionsPanelController"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.corecomponents.Bundle#OptionsCategory_Name_General" name="categoryName"/>
+            <attr intvalue="1" name="position"/>
+            <attr name="iconBase" stringvalue="org/sleuthkit/autopsy/corecomponents/checkbox32.png"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.corecomponents.Bundle#OptionsCategory_Keywords_General" name="keywords"/>
+            <attr name="keywordsCategory" stringvalue="General"/>
+        </file>
+        <file name="org-sleuthkit-autopsy-corecomponents-MultiUserSettingsPanelController.instance">
+            <!--org.sleuthkit.autopsy.corecomponents.MultiUserSettingsPanelController-->
+            <attr
+                methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+            <attr name="controller" newvalue="org.sleuthkit.autopsy.corecomponents.MultiUserSettingsPanelController"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.corecomponents.Bundle#OptionsCategory_Name_Multi_User_Settings" name="categoryName"/>
+            <attr intvalue="3" name="position"/>
+            <attr name="iconBase" stringvalue="org/sleuthkit/autopsy/images/User-Group-icon-green32.png"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.corecomponents.Bundle#OptionsCategory_Keywords_Multi_User_Options" name="keywords"/>
+            <attr name="keywordsCategory" stringvalue="Multi-User"/>
+        </file>
+        <file name="org-sleuthkit-autopsy-directorytree-ExternalViewerOptionsPanelController.instance">
+            <!--org.sleuthkit.autopsy.directorytree.ExternalViewerOptionsPanelController-->
+            <attr
+                methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+            <attr name="controller" newvalue="org.sleuthkit.autopsy.directorytree.ExternalViewerOptionsPanelController"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.directorytree.Bundle#OptionsCategory_Name_ExternalViewer" name="categoryName"/>
+            <attr intvalue="12" name="position"/>
+            <attr name="iconBase" stringvalue="org/sleuthkit/autopsy/directorytree/external-viewer-rules-32x32.png"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.directorytree.Bundle#OptionsCategory_Keywords_ExternalViewer" name="keywords"/>
+            <attr name="keywordsCategory" stringvalue="ExternalViewer"/>
+        </file>
+        <file name="org-sleuthkit-autopsy-ingest-IngestOptionsPanelController.instance">
+            <!--org.sleuthkit.autopsy.ingest.IngestOptionsPanelController-->
+            <attr
+                methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+            <attr name="controller" newvalue="org.sleuthkit.autopsy.ingest.IngestOptionsPanelController"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.ingest.Bundle#OptionsCategory_Name_IngestOptions" name="categoryName"/>
+            <attr intvalue="2" name="position"/>
+            <attr name="iconBase" stringvalue="org/sleuthkit/autopsy/images/file_ingest_filter32x32.png"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.ingest.Bundle#OptionsCategory_Keywords_IngestOptions" name="keywords"/>
+            <attr name="keywordsCategory" stringvalue="IngestOptions"/>
+        </file>
+        <file name="org-sleuthkit-autopsy-modules-fileextmismatch-FileExtMismatchOptionsPanelController.instance">
+            <!--org.sleuthkit.autopsy.modules.fileextmismatch.FileExtMismatchOptionsPanelController-->
+            <attr
+                methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+            <attr name="controller" newvalue="org.sleuthkit.autopsy.modules.fileextmismatch.FileExtMismatchOptionsPanelController"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.modules.fileextmismatch.Bundle#OptionsCategory_Name_FileExtMismatchOptions" name="categoryName"/>
+            <attr intvalue="8" name="position"/>
+            <attr name="iconBase" stringvalue="org/sleuthkit/autopsy/modules/fileextmismatch/options-icon.png"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.modules.fileextmismatch.Bundle#OptionsCategory_FileExtMismatch" name="keywords"/>
+            <attr name="keywordsCategory" stringvalue="KeywordSearchOptions"/>
+        </file>
+        <file name="org-sleuthkit-autopsy-modules-filetypeid-FileTypeIdOptionsPanelController.instance">
+            <!--org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdOptionsPanelController-->
+            <attr
+                methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+            <attr name="controller" newvalue="org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdOptionsPanelController"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.modules.filetypeid.Bundle#OptionsCategory_Name_FileTypeId" name="categoryName"/>
+            <attr intvalue="9" name="position"/>
+            <attr name="iconBase" stringvalue="org/sleuthkit/autopsy/modules/filetypeid/user-defined-file-types-settings.png"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.modules.filetypeid.Bundle#OptionsCategory_Keywords_FileTypeId" name="keywords"/>
+            <attr name="keywordsCategory" stringvalue="FileTypeId"/>
+        </file>
+        <file name="HashDatabase.instance">
+            <!--org.sleuthkit.autopsy.modules.hashdatabase.HashDatabaseOptionsPanelController-->
+            <attr
+                methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+            <attr name="controller" newvalue="org.sleuthkit.autopsy.modules.hashdatabase.HashDatabaseOptionsPanelController"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.modules.hashdatabase.Bundle#OptionsCategory_Name_HashDatabase" name="categoryName"/>
+            <attr intvalue="7" name="position"/>
+            <attr name="iconBase" stringvalue="org/sleuthkit/autopsy/modules/hashdatabase/options_icon.png"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.modules.hashdatabase.Bundle#OptionsCategory_Keywords_HashDatabase" name="keywords"/>
+            <attr name="keywordsCategory" stringvalue="HashDatabase"/>
+        </file>
+        <file name="org-sleuthkit-autopsy-modules-interestingitems-InterestingItemDefsOptionsPanelController.instance">
+            <!--org.sleuthkit.autopsy.modules.interestingitems.InterestingItemDefsOptionsPanelController-->
+            <attr
+                methodvalue="org.netbeans.spi.options.OptionsCategory.createCategory" name="instanceCreate"/>
+            <attr name="controller" newvalue="org.sleuthkit.autopsy.modules.interestingitems.InterestingItemDefsOptionsPanelController"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.modules.interestingitems.Bundle#OptionsCategory_Name_InterestingItemDefinitions" name="categoryName"/>
+            <attr intvalue="10" name="position"/>
+            <attr name="iconBase" stringvalue="org/sleuthkit/autopsy/images/interesting_item_32x32.png"/>
+            <attr
+                bundlevalue="org.sleuthkit.autopsy.modules.interestingitems.Bundle#OptionsCategory_Keywords_InterestingItemDefinitions" name="keywords"/>
+            <attr name="keywordsCategory" stringvalue="InterestingItemDefinitions"/>
+        </file>
+    </folder>
+</filesystem>

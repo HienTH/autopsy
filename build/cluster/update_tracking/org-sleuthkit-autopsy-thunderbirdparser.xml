@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.sleuthkit.autopsy.thunderbirdparser/4">
+    <module_version install_time="1538420553164" last="true" origin="installer" specification_version="4.0.16">
+        <file crc="1048964748" name="config/Modules/org-sleuthkit-autopsy-thunderbirdparser.xml"/>
+        <file crc="1809045543" name="modules/ext/apache-mime4j-core-0.8.0-SNAPSHOT.jar"/>
+        <file crc="1955105329" name="modules/ext/apache-mime4j-core-0.8.0.jar"/>
+        <file crc="3582883460" name="modules/ext/apache-mime4j-dom-0.8.0-SNAPSHOT.jar"/>
+        <file crc="3238626888" name="modules/ext/apache-mime4j-dom-0.8.0.jar"/>
+        <file crc="2976668800" name="modules/ext/apache-mime4j-mbox-iterator-0.8.0-SNAPSHOT.jar"/>
+        <file crc="3224625378" name="modules/ext/apache-mime4j-mbox-iterator-0.8.0.jar"/>
+        <file crc="4158621547" name="modules/ext/java-libpst-1.0-SNAPSHOT.jar"/>
+        <file crc="470209432" name="modules/org-sleuthkit-autopsy-thunderbirdparser.jar"/>
+    </module_version>
+</module>

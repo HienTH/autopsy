@@ -1,0 +1,14 @@
+org.sleuthkit.autopsy.corecomponents.DataContentViewerHex
+#position=1
+org.sleuthkit.autopsy.corecomponents.DataContentViewerString
+#position=2
+org.sleuthkit.autopsy.contentviewers.Metadata
+#position=3
+org.sleuthkit.autopsy.corecomponents.DataContentViewerArtifact
+#position=3
+org.sleuthkit.autopsy.contentviewers.MessageContentViewer
+#position=4
+org.sleuthkit.autopsy.corecomponents.DataContentViewerMedia
+#position=5
+org.sleuthkit.autopsy.centralrepository.contentviewer.DataContentViewerOtherCases
+#position=8

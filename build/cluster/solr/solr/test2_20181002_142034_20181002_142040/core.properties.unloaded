@@ -1,7 +1,0 @@
-#Written by CorePropertiesLocator
-#Tue Oct 02 14:20:40 ICT 2018
-name=test2_20181002_142034_20181002_142040
-loadOnStartup=false
-dataDir=/media/lete/01D2F6F7D0C2FB80/NCKH_2018/Test2/ModuleOutput/keywordsearch/data/solr4_schema2.0
-transient=true
-configSet=AutopsyConfig

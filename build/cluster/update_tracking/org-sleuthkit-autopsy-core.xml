@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.sleuthkit.autopsy.core/10">
-    <module_version install_time="1538420525550" last="true" origin="installer" specification_version="10.10.22">
+    <module_version install_time="1540304472845" last="true" origin="installer" specification_version="10.10.22">
         <file crc="1123541545" name="InternalPythonModules/README.txt"/>
         <file crc="1675787610" name="InternalPythonModules/android/browserlocation.py"/>
         <file crc="4051294792" name="InternalPythonModules/android/cachelocation.py"/>
@@ -248,7 +248,7 @@
         <file crc="4033527742" name="modules/lib/x86_64/vccorlib140.dll"/>
         <file crc="482684696" name="modules/lib/x86_64/vcruntime140.dll"/>
         <file crc="2005056851" name="modules/lib/x86_64/zlib.dll"/>
-        <file crc="3011852713" name="modules/org-sleuthkit-autopsy-core.jar"/>
+        <file crc="3430144130" name="modules/org-sleuthkit-autopsy-core.jar"/>
         <file crc="18633651" name="photorec_exec/63/cygwin"/>
         <file crc="2529819341" name="photorec_exec/AUTHORS.txt"/>
         <file crc="392499292" name="photorec_exec/COPYING.txt"/>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.sleuthkit.autopsy.kiemtravanban">
+    <module_version install_time="1540304494000" last="true" origin="installer" specification_version="1.0">
+        <file crc="903668363" name="config/Modules/org-sleuthkit-autopsy-kiemtravanban.xml"/>
+        <file crc="654187790" name="modules/ext/bcmail-jdk15on-1.46.jar"/>
+        <file crc="3899919590" name="modules/ext/bcpg-jdk15on-1.46.jar"/>
+        <file crc="3191996240" name="modules/ext/bcprov-jdk15-1.46.jar"/>
+        <file crc="4211871610" name="modules/ext/itextpdf-5.1.0.jar"/>
+        <file crc="2767170478" name="modules/ext/java-json.jar"/>
+        <file crc="1314209642" name="modules/ext/poi-3.15.jar"/>
+        <file crc="3201380836" name="modules/ext/poi-ooxml-3.15.jar"/>
+        <file crc="2634810989" name="modules/ext/poi-ooxml-3.17-beta1.jar"/>
+        <file crc="977321864" name="modules/ext/poi-ooxml-3.8-beta3.jar"/>
+        <file crc="2567520736" name="modules/ext/poi-ooxml-schemas-3.15.jar"/>
+        <file crc="657718747" name="modules/ext/poi-ooxml-schemas-3.17-beta1.jar"/>
+        <file crc="2453623619" name="modules/ext/poi-scratchpad-3.15.jar"/>
+        <file crc="1963276023" name="modules/ext/poi-scratchpad-3.17-beta1.jar"/>
+        <file crc="845831074" name="modules/ext/poi-scratchpad-3.9.jar"/>
+        <file crc="3116060521" name="modules/ext/xmlbeans-2.3.0.jar"/>
+        <file crc="2184406841" name="modules/org-sleuthkit-autopsy-kiemtravanban.jar"/>
+    </module_version>
+</module>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.sleuthkit.autopsy.corelibs/3">
-    <module_version install_time="1538420499737" last="true" origin="installer" specification_version="1.1">
+    <module_version install_time="1540304452698" last="true" origin="installer" specification_version="1.1">
         <file crc="2175489721" name="config/Modules/org-sleuthkit-autopsy-corelibs.xml"/>
         <file crc="2664177023" name="modules/ext/AppleJavaExtensions-1.4.jar"/>
         <file crc="1503904036" name="modules/ext/LGoodDatePicker-10.3.1-javadoc.jar"/>
@@ -115,6 +115,6 @@
         <file crc="102184397" name="modules/lib/ia64/libsigar.so"/>
         <file crc="2878970811" name="modules/lib/x86/libsigar.dll"/>
         <file crc="2847379594" name="modules/lib/x86_64/libsigar.dylib"/>
-        <file crc="268601567" name="modules/org-sleuthkit-autopsy-corelibs.jar"/>
+        <file crc="2067821697" name="modules/org-sleuthkit-autopsy-corelibs.jar"/>
     </module_version>
 </module>

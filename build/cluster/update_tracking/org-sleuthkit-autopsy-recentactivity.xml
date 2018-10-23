@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.sleuthkit.autopsy.recentactivity/6">
-    <module_version install_time="1538420552223" last="true" origin="installer" specification_version="6.0.15">
+    <module_version install_time="1540304495000" last="true" origin="installer" specification_version="6.0.15">
         <file crc="3570819657" name="config/Modules/org-sleuthkit-autopsy-recentactivity.xml"/>
         <file crc="317475583" name="modules/ext/gson-2.1.jar"/>
-        <file crc="212804054" name="modules/org-sleuthkit-autopsy-recentactivity.jar"/>
+        <file crc="2892260605" name="modules/org-sleuthkit-autopsy-recentactivity.jar"/>
         <file crc="1310725326" name="pasco2/commons-cli-1.0.jar"/>
         <file crc="3507394090" name="pasco2/commons-collections-3.1.jar"/>
         <file crc="861279425" name="pasco2/ctypes4j.dll"/>

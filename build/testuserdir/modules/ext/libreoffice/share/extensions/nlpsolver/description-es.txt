@@ -1,1 +1,0 @@
-Esta extensión se integra en Calc y ofrece nuevos motores del Solucionador que pueden usarse para optimizar modelos de programación no lineales.

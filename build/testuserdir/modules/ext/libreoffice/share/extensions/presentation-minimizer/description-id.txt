@@ -1,2 +1,0 @@
-Peminimal Presentasi dipakai untuk mengurangi ukuran berkas dari presentasi kini. Gambar akan dimampatkan, dan data yang tak diperlukan lagi akan dibuang.
-Peminimal Presentasi dapat mengoptimasi ukuran kualitas gambar. Presentasi yang dirancang bagi layar atau projektor tak memerlukan kualitas tinggi yang sama dengan presentasi yang dirancang untuk cetak.

@@ -4,9 +4,6 @@
     <fileobject name="explorer">
         <attr name="WinSys-TCRef-Order" stringvalue="favorites"/>
     </fileobject>
-    <fileobject name="floatingLeftBottom">
-        <attr name="WinSys-TCRef-Order" stringvalue="IngestMessageTopComponent"/>
-    </fileobject>
     <fileobject name="output">
         <attr name="WinSys-TCRef-Order" stringvalue="output"/>
     </fileobject>

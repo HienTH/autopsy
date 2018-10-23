@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 AutoUpdate-Show-In-Client: true
-OpenIDE-Module: org.sleuthkit.autopsy.documentcheck
-OpenIDE-Module-Localizing-Bundle: org/sleuthkit/autopsy/modules/documentcheck/Bundle.properties
+OpenIDE-Module: org.sleuthkit.autopsy.kiemtravanban
+OpenIDE-Module-Localizing-Bundle: org/sleuthkit/autopsy/modules/kiemtravanban/Bundle.properties
 OpenIDE-Module-Specification-Version: 1.0
 

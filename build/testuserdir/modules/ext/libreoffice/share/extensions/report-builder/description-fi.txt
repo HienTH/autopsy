@@ -1,1 +1,0 @@
-Käytä raportointityökalua tyylikkäiden tietokantaraporttien laadintaan. Monipuolinen raporttimuokkain mahdollistaa mm. ryhmittelyjen ja sivujen ylä- ja alatunnisteiden määrittelyn. Raportteihin voi myös lisätä laskettuja kenttiä täydentämään tietokannasta haettua tietoa.

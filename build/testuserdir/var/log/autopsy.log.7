@@ -1,6 +1,6 @@
-2018-10-23 20:56:09.498 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
-INFO: Closed current case TestVBM (testvbm_20181023_203953) in /media/lete/01D2F6F7D0C2FB80/NCKH_2018/KBDATN/TestVBM
-2018-10-23 20:56:09.901 org.sleuthkit.autopsy.communications.FiltersPanel updateDeviceFilter
+2018-10-26 22:50:33.019 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closed current case RoRiDuLieu (roridulieu_20181026_224122) in /media/lete/01D2F6F7D0C2FB80/NCKH_2018/KBDATN/RoRiDuLieu
+2018-10-26 22:50:33.323 org.sleuthkit.autopsy.communications.FiltersPanel updateDeviceFilter
 WARNING: Communications Visualization Tool opened with no open case.
 java.lang.IllegalStateException: Không thể nhận được hồ sơ hiện tại; không có hồ sơ nào mở !
 	org.sleuthkit.autopsy.casemodule.Case.getCurrentCase(Case.java:603)
@@ -43,9 +43,9 @@ java.lang.IllegalStateException: Không thể nhận được hồ sơ hiện t�
 	java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
 	java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-2018-10-23 20:56:10.034 org.sleuthkit.autopsy.corecomponentinterfaces.CoreComponentControl closeCoreWindows
+2018-10-26 22:50:33.431 org.sleuthkit.autopsy.corecomponentinterfaces.CoreComponentControl closeCoreWindows
 INFO: tcName was null
-2018-10-23 20:56:10.431 org.sleuthkit.autopsy.imagegallery.gui.Toolbar initialize
+2018-10-26 22:50:33.81 org.sleuthkit.autopsy.imagegallery.gui.Toolbar initialize
 WARNING: Could not create Follow Up tag menu item
 org.sleuthkit.datamodel.TskCoreException: Error getting case database connection - case is closed
 	org.sleuthkit.datamodel.SleuthkitCase$ConnectionPool.getConnection(SleuthkitCase.java:8388)
@@ -76,7 +76,7 @@ org.sleuthkit.datamodel.TskCoreException: Error getting case database connection
 	com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
 	com.sun.glass.ui.gtk.GtkApplication.lambda$null$48(GtkApplication.java:139)
 	java.lang.Thread.run(Thread.java:748)
-2018-10-23 20:56:10.733 org.sleuthkit.autopsy.imagegallery.gui.drawableviews.GroupPane lambda$initialize$7
+2018-10-26 22:50:34.257 org.sleuthkit.autopsy.imagegallery.gui.drawableviews.GroupPane lambda$initialize$7
 WARNING: failed to load FollowUpTagName
 org.sleuthkit.datamodel.TskCoreException: Error getting case database connection - case is closed
 	org.sleuthkit.datamodel.SleuthkitCase$ConnectionPool.getConnection(SleuthkitCase.java:8388)
@@ -92,29 +92,29 @@ org.sleuthkit.datamodel.TskCoreException: Error getting case database connection
 	com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
 	com.sun.glass.ui.gtk.GtkApplication.lambda$null$48(GtkApplication.java:139)
 	java.lang.Thread.run(Thread.java:748)
-2018-10-23 20:56:12.321 org.sleuthkit.autopsy.keywordsearch.Server stop
+2018-10-26 22:50:35.98 org.sleuthkit.autopsy.keywordsearch.Server stop
 INFO: Stopping Solr server from: /home/lete/AutoPsy/build/cluster/solr
-2018-10-23 20:56:12.322 org.sleuthkit.autopsy.keywordsearch.Server runSolrCommand
+2018-10-26 22:50:35.98 org.sleuthkit.autopsy.keywordsearch.Server runSolrCommand
 INFO: Running Solr command: [java, -Xmx512m, -DSTOP.PORT=34343, -Djetty.port=23232, -DSTOP.KEY=jjk#09s, -jar, start.jar, --stop]
-2018-10-23 20:56:12.324 org.sleuthkit.autopsy.keywordsearch.Server runSolrCommand
+2018-10-26 22:50:35.982 org.sleuthkit.autopsy.keywordsearch.Server runSolrCommand
 INFO: Finished running Solr command
-2018-10-23 20:56:12.324 org.sleuthkit.autopsy.keywordsearch.Server stop
+2018-10-26 22:50:35.982 org.sleuthkit.autopsy.keywordsearch.Server stop
 INFO: Waiting for Solr server to stop
-2018-10-23 20:56:12.492 org.sleuthkit.autopsy.keywordsearch.Server killSolr
-INFO: Trying to kill old Solr process, PID: 27,561
-2018-10-23 20:56:12.493 org.sleuthkit.autopsy.keywordsearch.Server stop
+2018-10-26 22:50:36.137 org.sleuthkit.autopsy.keywordsearch.Server killSolr
+INFO: Trying to kill old Solr process, PID: 16,730
+2018-10-26 22:50:36.138 org.sleuthkit.autopsy.keywordsearch.Server stop
 INFO: Finished stopping Solr server
-2018-10-23 20:56:12.494 org.sleuthkit.autopsy.core.Installer <init>
+2018-10-26 22:50:36.138 org.sleuthkit.autopsy.core.Installer <init>
 INFO: core installer created
-2018-10-23 20:56:13.206 org.sleuthkit.autopsy.core.Installer close
+2018-10-26 22:50:36.84 org.sleuthkit.autopsy.core.Installer close
 INFO: close()
-2018-10-23 20:56:13.207 org.sleuthkit.autopsy.core.Installer close
+2018-10-26 22:50:36.841 org.sleuthkit.autopsy.core.Installer close
 INFO: org.sleuthkit.autopsy.coreutils.Installer close()
-2018-10-23 20:56:13.207 org.sleuthkit.autopsy.core.Installer close
+2018-10-26 22:50:36.841 org.sleuthkit.autopsy.core.Installer close
 INFO: org.sleuthkit.autopsy.corecomponents.Installer close()
-2018-10-23 20:56:13.207 org.sleuthkit.autopsy.core.Installer close
+2018-10-26 22:50:36.841 org.sleuthkit.autopsy.core.Installer close
 INFO: org.sleuthkit.autopsy.datamodel.Installer close()
-2018-10-23 20:56:13.208 org.sleuthkit.autopsy.core.Installer close
+2018-10-26 22:50:36.841 org.sleuthkit.autopsy.core.Installer close
 INFO: org.sleuthkit.autopsy.ingest.Installer close()
-2018-10-23 20:56:13.208 org.sleuthkit.autopsy.core.Installer close
+2018-10-26 22:50:36.841 org.sleuthkit.autopsy.core.Installer close
 INFO: org.sleuthkit.autopsy.centralrepository.eventlisteners.Installer close()

@@ -1,0 +1,7 @@
+#Written by CorePropertiesLocator
+#Sat Oct 27 00:03:21 ICT 2018
+name=roridulieu_20181026_232827_20181026_232828
+loadOnStartup=false
+dataDir=/media/lete/01D2F6F7D0C2FB80/NCKH_2018/RoRiDuLieu/ModuleOutput/keywordsearch/data/solr4_schema2.0
+transient=true
+configSet=AutopsyConfig

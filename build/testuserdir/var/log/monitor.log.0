@@ -1,0 +1,96 @@
+Oct 26, 2018 11:31:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 207618048, 75955248
+JVM heap sử dụng: init = 25165824(24576K) used = 129650608(126611K) committed = 207618048(202752K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 149087160(145592K) committed = 156090368(152432K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,624,246,784
+Oct 26, 2018 11:32:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 207618048, 51306808
+JVM heap sử dụng: init = 25165824(24576K) used = 154816432(151187K) committed = 207618048(202752K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 149353880(145853K) committed = 156090368(152432K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,624,246,784
+Oct 26, 2018 11:33:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 207618048, 92863984
+JVM heap sử dụng: init = 25165824(24576K) used = 113831512(111163K) committed = 207618048(202752K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 151104624(147563K) committed = 157663232(153968K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,626,343,936
+Oct 26, 2018 11:34:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1454978944
+JVM heap sử dụng: init = 25165824(24576K) used = 622772360(608176K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 156710352(153037K) committed = 163495936(159664K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,630,640,640
+Oct 26, 2018 11:35:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1042555424
+JVM heap sử dụng: init = 25165824(24576K) used = 1035722208(1011447K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 160406728(156647K) committed = 167428096(163504K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,737,792
+Oct 26, 2018 11:36:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1416612112
+JVM heap sử dụng: init = 25165824(24576K) used = 661000136(645507K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 161100344(157324K) committed = 168148992(164208K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,741,888
+Oct 26, 2018 11:37:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1736550448
+JVM heap sử dụng: init = 25165824(24576K) used = 341724416(333715K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 161457288(157673K) committed = 168345600(164400K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,745,984
+Oct 26, 2018 11:38:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1414296312
+JVM heap sử dụng: init = 25165824(24576K) used = 663981320(648419K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 161441160(157657K) committed = 168542208(164592K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,745,984
+Oct 26, 2018 11:39:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1105352872
+JVM heap sử dụng: init = 25165824(24576K) used = 972292312(949504K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 161775464(157983K) committed = 168738816(164784K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,659,968
+Oct 26, 2018 11:40:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 849637208
+JVM heap sử dụng: init = 25165824(24576K) used = 1228098968(1199315K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 161630744(157842K) committed = 168738816(164784K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,659,968
+Oct 26, 2018 11:41:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1791224184
+JVM heap sử dụng: init = 25165824(24576K) used = 287035672(280308K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 161435736(157652K) committed = 168738816(164784K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,659,968
+Oct 26, 2018 11:42:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1578770720
+JVM heap sử dụng: init = 25165824(24576K) used = 498977632(487282K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 161558328(157771K) committed = 169000960(165040K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,659,968
+Oct 26, 2018 11:43:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1250364448
+JVM heap sử dụng: init = 25165824(24576K) used = 827246136(807857K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 161566416(157779K) committed = 169000960(165040K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,659,968
+Oct 26, 2018 11:44:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1951864864
+JVM heap sử dụng: init = 25165824(24576K) used = 125886440(122935K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 161601688(157814K) committed = 169000960(165040K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,659,968
+Oct 26, 2018 11:45:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 791801168
+JVM heap sử dụng: init = 25165824(24576K) used = 1286998712(1256834K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 161610776(157823K) committed = 169000960(165040K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,659,968
+Oct 26, 2018 11:46:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1632237952
+JVM heap sử dụng: init = 25165824(24576K) used = 446039680(435585K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 160817712(157048K) committed = 169000960(165040K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,659,968
+Oct 26, 2018 11:47:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1664424864
+JVM heap sử dụng: init = 25165824(24576K) used = 413553792(403861K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 160898128(157127K) committed = 169000960(165040K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,655,872
+Oct 26, 2018 11:48:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1656308928
+JVM heap sử dụng: init = 25165824(24576K) used = 421942400(412053K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 160929416(157157K) committed = 169000960(165040K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,655,872
+Oct 26, 2018 11:49:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1536897848
+JVM heap sử dụng: init = 25165824(24576K) used = 540431488(527765K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 161083544(157308K) committed = 169000960(165040K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,655,872
+Oct 26, 2018 11:50:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1408733128
+JVM heap sử dụng: init = 25165824(24576K) used = 669406336(653717K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 162622520(158811K) committed = 169525248(165552K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,651,776
+Oct 26, 2018 11:51:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1327678344
+JVM heap sử dụng: init = 25165824(24576K) used = 750146688(732565K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 164276880(160426K) committed = 171556864(167536K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,651,776
+Oct 26, 2018 11:52:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1356961184
+JVM heap sử dụng: init = 25165824(24576K) used = 721314400(704408K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 166285472(162388K) committed = 173260800(169200K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,651,776
+Oct 26, 2018 11:53:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 1617230744
+JVM heap sử dụng: init = 25165824(24576K) used = 461044840(450239K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 166460992(162559K) committed = 173522944(169456K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,651,776
+Oct 26, 2018 11:54:18 PM org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMemoryUsage
+INFO: Sử dụng bộ nhớ vật lý (tối đa, tổng cộng, còn trống): 4294967296, 2078277632, 750885728
+JVM heap sử dụng: init = 25165824(24576K) used = 1327389856(1296279K) committed = 2078277632(2029568K) max = 4294967296(4194304K), JVM non-heap sử dụng: init = 2555904(2496K) used = 166833232(162923K) committed = 173785088(169712K) max = -1(-1K)
+Tiến trình bộ nhớ ảo: 8,632,651,776

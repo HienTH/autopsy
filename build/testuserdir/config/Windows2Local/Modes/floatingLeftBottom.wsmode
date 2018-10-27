@@ -7,7 +7,7 @@
   <constraints>
     <path orientation="horizontal" number="100" weight="0.5"/>
   </constraints>
-  <bounds x="7" y="161" width="700" height="400" />
+  <bounds x="402" y="80" width="797" height="686" />
   <frame state="0"/>
     <empty-behavior permanent="true"/>
 </mode>

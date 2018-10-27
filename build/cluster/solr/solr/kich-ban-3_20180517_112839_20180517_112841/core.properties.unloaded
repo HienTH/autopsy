@@ -1,0 +1,7 @@
+#Written by CorePropertiesLocator
+#Fri Oct 26 22:55:44 ICT 2018
+name=kich-ban-3_20180517_112839_20180517_112841
+loadOnStartup=false
+dataDir=/media/lete/01D2F6F7D0C2FB80/NCKH_2018/Kich-ban-3/ModuleOutput/keywordsearch/data/solr4_schema2.0
+transient=true
+configSet=AutopsyConfig

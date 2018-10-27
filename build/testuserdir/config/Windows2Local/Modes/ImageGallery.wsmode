@@ -4,7 +4,7 @@
     <name unique="ImageGallery"  />
   <kind type="editor" />
   <state type="separated"  />
-  <bounds x="508" y="159" width="1000" height="750" />
-  <frame state="0"/>
+  <bounds x="65" y="24" width="1301" height="744" />
+  <frame state="6"/>
     <empty-behavior permanent="true"/>
 </mode>

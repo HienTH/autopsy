@@ -2,10 +2,17 @@ package org.sleuthkit.autopsy.modules.phathienvanbanmat;
 
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.lang.reflect.Field;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -13,6 +20,9 @@ import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
 import java.util.stream.Collectors;
 import javax.imageio.ImageIO;
+import net.sourceforge.tess4j.Tesseract;
+import net.sourceforge.tess4j.TesseractException;
+import org.json.JSONObject;
 //import net.sourceforge.tess4j.TesseractException;
 import org.openide.util.Exceptions;
 import org.openide.util.NbBundle;
@@ -31,12 +41,7 @@ import org.sleuthkit.autopsy.ingest.IngestServices;
 import org.sleuthkit.autopsy.ingest.ModuleDataEvent;
 import org.sleuthkit.datamodel.BlackboardArtifact;
 import org.sleuthkit.datamodel.BlackboardAttribute;
-import org.sleuthkit.datamodel.TagName;
 import org.sleuthkit.datamodel.TskCoreException;
-import org.opencv.core.Core;
-import org.opencv.core.CvType;
-import org.opencv.core.Mat;
-import org.sleuthkit.datamodel.ReadContentInputStream;
 
 class PhatHienVanBanMatModule implements FileIngestModule {
 
@@ -45,32 +50,15 @@ class PhatHienVanBanMatModule implements FileIngestModule {
     private IngestJobContext context;
     private static final IngestModuleReferenceCounter refCounter = new IngestModuleReferenceCounter();
     
-    PhatHienVanBanMatModule() throws Exception{
-        String path = "/usr/local/share/OpenCV/java/";
-        loadOpenCVLib(path);
-    }
-    
-    public static void loadOpenCVLib(String path) throws Exception {
-        File lib_dir = new File(path);
-        System.setProperty("java.library.path", lib_dir.getAbsolutePath());
-        Field sys_paths = ClassLoader.class.getDeclaredField("sys_paths");
-        sys_paths.setAccessible(true);
-        sys_paths.set(null, null);
-        System.loadLibrary(org.opencv.core.Core.NATIVE_LIBRARY_NAME);
-    }
- 
     @Override
     public IngestModule.ProcessResult process(AbstractFile file) {
         Blackboard blackboard = Case.getCurrentCase().getServices().getBlackboard();
-//        Boolean extJpeg = isJpegFileHeader(file);
-//        Boolean extPng = isPngFileHeader(file);
-//        AbstractFile fileFrom = file;
-//        int size =  (int) file.getSize();
-        //if (extJpeg || extPng || "png".equals(file.getNameExtension()) || "PNG".equals(file.getNameExtension())){
-        if (file.isFile() && isImageFile(file)){
-            System.out.println(file.getName());
+        Boolean extJpeg = isJpegFileHeader(file);
+        Boolean extPng = isPngFileHeader(file);
+
+        if (file.isFile() && isImageFile(file) && (extJpeg || extPng)){
             try {
-                if (DetectRetangle.Detect(file)){
+                if (Api.Api(file)){
                     String MODULE_NAME = PhatHienVanBanMatModuleFactory.getModuleName();
                     BlackboardArtifact art = null;
                     try {
@@ -89,7 +77,7 @@ class PhatHienVanBanMatModule implements FileIngestModule {
                         // index the artifact for keyword search
                         blackboard.indexArtifact(art);
                     } catch (Blackboard.BlackboardException ex) {
-                        logger.log(Level.SEVERE, "Unable to index blackboard artifact " + art.getArtifactID(), ex);
+                        logger.log(Level.SEVERE, "Lỗi thêm vào blackboard artifact " + art.getArtifactID(), ex);
                     }
                     
                     addToBlackboardPostCount(context.getJobId(), 1L);
@@ -98,6 +86,7 @@ class PhatHienVanBanMatModule implements FileIngestModule {
                     ModuleDataEvent event = new ModuleDataEvent(PhatHienVanBanMatModuleFactory.getModuleName(), BlackboardArtifact.ARTIFACT_TYPE.TSK_GEN_INFO);
                     IngestServices.getInstance().fireModuleDataEvent(event);
                 }
+                
             } catch (Exception ex) {
                 Exceptions.printStackTrace(ex);
             }
@@ -105,6 +94,25 @@ class PhatHienVanBanMatModule implements FileIngestModule {
         return IngestModule.ProcessResult.OK;
     }
 
+    public void Ocr() throws TesseractException{
+        
+        Tesseract insta = new Tesseract();
+        insta.setDatapath("/home/lete/Tess4J");
+        insta.setLanguage("vie");
+        
+        File folder = new File("/home/lete/output/");
+        File[] listOfFiles = folder.listFiles();
+
+        for (File file : listOfFiles) {
+            if (file.isFile()) {
+                System.out.println(file.getName());
+                File filek = new File("/home/lete/output/" + file.getName());
+                String result = insta.doOCR(filek); 
+                System.out.println(result);
+            }
+        }
+    }
+    
     @Override
     public void shutDown() {
         reportBlackboardPostCount(context.getJobId());
@@ -198,11 +206,6 @@ class PhatHienVanBanMatModule implements FileIngestModule {
         return false;
     }
     
-}
-
-
-/*
-
     private static byte[] readHeader(AbstractFile file, int buffLength) throws TskCoreException {
         byte[] fileHeaderBuffer = new byte[buffLength];
         int bytesRead = file.read(fileHeaderBuffer, 0, buffLength);
@@ -225,7 +228,6 @@ class PhatHienVanBanMatModule implements FileIngestModule {
                     && ((fileHeaderBuffer[3] & 0xff) == 0x47) && ((fileHeaderBuffer[4] & 0xff) == 0x0D)
                     && ((fileHeaderBuffer[5] & 0xff) == 0x0A) && ((fileHeaderBuffer[6] & 0xff) == 0x1A)
                     && ((fileHeaderBuffer[7] & 0xff) == 0x0A));
-
         } catch (TskCoreException ex) {
             //ignore if can't read the first few bytes, not an png
             return false;
@@ -246,4 +248,34 @@ class PhatHienVanBanMatModule implements FileIngestModule {
             return false;
         }
     }
+    
+}
+
+
+/*
+PhatHienVanBanMatModule() throws Exception{
+        String path = "/usr/local/share/OpenCV/java/";
+        loadOpenCVLib(path);
+    }
+    
+    public static void loadOpenCVLib(String path) throws Exception {
+        File lib_dir = new File(path);
+        System.setProperty("java.library.path", lib_dir.getAbsolutePath());
+        Field sys_paths = ClassLoader.class.getDeclaredField("sys_paths");
+        sys_paths.setAccessible(true);
+        sys_paths.set(null, null);
+        System.loadLibrary(org.opencv.core.Core.NATIVE_LIBRARY_NAME);
+    }
+
+                // call tess4j
+                //Tesseract insta = new Tesseract();
+                //insta.setDatapath("/home/lete/Tess4J");
+                //insta.setLanguage("vie");
+                
+                
+                //File fileOut = new File(fileName);
+                
+                //String result = insta.doOCR(fileOut);
+                //System.out.println(result);
+
 */

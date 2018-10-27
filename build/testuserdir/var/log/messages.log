@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Tuesday, October 23, 2018 10:15:22 PM ICT
+>Log Session: Friday, October 26, 2018 11:27:18 PM ICT
 >System Info: 
   Product Version         = Autopsy 4.6.0
   Operating System        = Linux version 4.10.0-28-generic running on amd64
@@ -31,11 +31,11 @@ WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/b
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/tika-parsers-1.17.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-core.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/c3p0-0.9.5.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-core.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-experimental.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/xmpcore-5.1.3.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-core.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/hamcrest-core-1.3.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-modules-phathienvanbanmat.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/jna-4.1.0.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-modules-phathienvanbanmat.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/commons-logging-1.2.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-modules-phathienvanbanmat.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/commons-beanutils-1.9.2.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-modules-phathienvanbanmat.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
-WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/hamcrest-core-1.3.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-modules-phathienvanbanmat.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/log4j-1.2.17.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-corelibs.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-modules-phathienvanbanmat.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
-WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/jna-4.1.0.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-modules-phathienvanbanmat.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/LGoodDatePicker-10.3.1.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-corelibs.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-experimental.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/xmlbeans-2.6.0.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-corelibs.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/log4j-1.2.17.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-corelibs.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-modules-phathienvanbanmat.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
@@ -46,6 +46,7 @@ WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/b
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/poi-scratchpad-3.17.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-corelibs.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/commons-lang-2.6.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-corelibs.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
 WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/poi-ooxml-3.17.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-keywordsearch.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-corelibs.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension /home/lete/AutoPsy/build/cluster/modules/ext/java-json.jar may be multiply loaded by modules: [/home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-kiemtravanban.jar, /home/lete/AutoPsy/build/cluster/modules/org-sleuthkit-autopsy-modules-phathienvanbanmat.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
 INFO [org.netbeans.JarClassLoader]: /home/lete/AutoPsy/build/testuserdir/modules/ext/jsign-1.3-SNAPSHOT.jar does not exist, # of retries 0
 INFO [org.netbeans.JarClassLoader]: file /home/lete/AutoPsy/build/testuserdir/modules/ext exists. # of retries 0
 INFO [org.netbeans.JarClassLoader]: /home/lete/AutoPsy/build/testuserdir/modules/ext is directory and contains: [commons-codec-1.9-sources.jar, commons-lang-2.4.jar, javafx-maven-plugin-1.5-javadoc.jar, plexus-sec-dispatcher-1.3.jar, javafx-maven-plugin-1.5.jar, plexus-interpolation-1.14.jar, commons-io-1.3.2.jar, classworlds-1.1-alpha-2.jar, plexus-component-annotations-1.5.5.jar, commons-codec-1.9-javadoc.jar, sisu-inject-plexus-1.4.2.jar, plexus-classworlds-2.2.3.jar, commons-collections-3.2.1.jar, plexus-utils-3.0.jar, maven-model-3.0.jar, plexus-cipher-1.4.jar, javafx-maven-plugin-1.5-sources.jar, maven-plugin-api-3.0.jar, sisu-guice-2.1.7-noaop.jar, aether-util-1.7.jar, sisu-inject-bean-1.4.2.jar, aether-api-1.7.jar, junit-4.8.2.jar, maven-repository-metadata-3.0.jar, javafx-deploy-lib-1.2.jar, plexus-io-2.0.3.jar, maven-artifact-3.0.jar, aether-spi-1.7.jar, maven-aether-provider-3.0.jar, json-20160212.jar, maven-settings-builder-3.0.jar, maven-settings-3.0.jar, plexus-container-default-1.0-alpha-9-stable-1.jar, mojo-executor-2.0.jar, aether-impl-1.7.jar, maven-model-builder-3.0.jar, plexus-archiver-2.1.1.jar, maven-core-3.0.jar, velocity-1.7.jar]
@@ -62,13 +63,13 @@ Caused: java.util.zip.ZipException: /home/lete/AutoPsy/build/testuserdir/modules
 	at org.netbeans.JarClassLoader$JarSource$1.call(JarClassLoader.java:537)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at org.netbeans.JarClassLoader$JarSource.getJarFile(JarClassLoader.java:572)
-[catch] at org.netbeans.JarClassLoader$JarSource.listCoveredPackages(JarClassLoader.java:651)
+	at org.netbeans.JarClassLoader$JarSource.listCoveredPackages(JarClassLoader.java:651)
 	at org.netbeans.JarClassLoader.getCoveredPackages(JarClassLoader.java:983)
 	at org.netbeans.JarClassLoader.<init>(JarClassLoader.java:176)
 	at org.netbeans.StandardModule$OneModuleClassLoader.<init>(StandardModule.java:634)
 	at org.netbeans.StandardModule.createNewClassLoader(StandardModule.java:570)
 	at org.netbeans.StandardModule.classLoaderUp(StandardModule.java:558)
-	at org.netbeans.ModuleManager.enable(ModuleManager.java:1238)
+[catch] at org.netbeans.ModuleManager.enable(ModuleManager.java:1238)
 	at org.netbeans.ModuleManager.enable(ModuleManager.java:1170)
 	at org.netbeans.core.startup.ModuleList.installNew(ModuleList.java:340)
 	at org.netbeans.core.startup.ModuleList.trigger(ModuleList.java:276)
@@ -116,6 +117,37 @@ Caused: java.util.zip.ZipException: /home/lete/AutoPsy/build/testuserdir/modules
 INFO [org.netbeans.JarClassLoader]: /home/lete/AutoPsy/build/testuserdir/modules/ext/commons-codec-1.9.jar does not exist, # of retries -1
 INFO [org.netbeans.JarClassLoader]: file /home/lete/AutoPsy/build/testuserdir/modules/ext exists. # of retries -1
 INFO [org.netbeans.JarClassLoader]: /home/lete/AutoPsy/build/testuserdir/modules/ext is directory and contains: [commons-codec-1.9-sources.jar, commons-lang-2.4.jar, javafx-maven-plugin-1.5-javadoc.jar, plexus-sec-dispatcher-1.3.jar, javafx-maven-plugin-1.5.jar, plexus-interpolation-1.14.jar, commons-io-1.3.2.jar, classworlds-1.1-alpha-2.jar, plexus-component-annotations-1.5.5.jar, commons-codec-1.9-javadoc.jar, sisu-inject-plexus-1.4.2.jar, plexus-classworlds-2.2.3.jar, commons-collections-3.2.1.jar, plexus-utils-3.0.jar, maven-model-3.0.jar, plexus-cipher-1.4.jar, javafx-maven-plugin-1.5-sources.jar, maven-plugin-api-3.0.jar, sisu-guice-2.1.7-noaop.jar, aether-util-1.7.jar, sisu-inject-bean-1.4.2.jar, aether-api-1.7.jar, junit-4.8.2.jar, maven-repository-metadata-3.0.jar, javafx-deploy-lib-1.2.jar, plexus-io-2.0.3.jar, maven-artifact-3.0.jar, aether-spi-1.7.jar, maven-aether-provider-3.0.jar, json-20160212.jar, maven-settings-builder-3.0.jar, maven-settings-3.0.jar, plexus-container-default-1.0-alpha-9-stable-1.jar, mojo-executor-2.0.jar, aether-impl-1.7.jar, maven-model-builder-3.0.jar, plexus-archiver-2.1.1.jar, maven-core-3.0.jar, velocity-1.7.jar]
+INFO [org.netbeans.JarClassLoader]: closing jar:file:/home/lete/AutoPsy/build/testuserdir/modules/ext/jsign-1.3-SNAPSHOT.jar!/
+java.io.FileNotFoundException: /home/lete/AutoPsy/build/testuserdir/modules/ext/jsign-1.3-SNAPSHOT.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:145)
+	at org.netbeans.JarClassLoader$JarSource$1.call(JarClassLoader.java:546)
+Caused: java.util.zip.ZipException: /home/lete/AutoPsy/build/testuserdir/modules/ext/jsign-1.3-SNAPSHOT.jar (No such file or directory)
+	at org.netbeans.JarClassLoader$JarSource$1.call(JarClassLoader.java:548)
+	at org.netbeans.JarClassLoader$JarSource$1.call(JarClassLoader.java:537)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.netbeans.JarClassLoader$JarSource.getJarFile(JarClassLoader.java:572)
+	at org.netbeans.JarClassLoader$JarSource.listCoveredPackages(JarClassLoader.java:651)
+	at org.netbeans.JarClassLoader.getCoveredPackages(JarClassLoader.java:983)
+	at org.netbeans.JarClassLoader.<init>(JarClassLoader.java:176)
+	at org.netbeans.StandardModule$OneModuleClassLoader.<init>(StandardModule.java:634)
+	at org.netbeans.StandardModule.createNewClassLoader(StandardModule.java:570)
+	at org.netbeans.StandardModule.classLoaderUp(StandardModule.java:558)
+[catch] at org.netbeans.ModuleManager.enable(ModuleManager.java:1238)
+	at org.netbeans.ModuleManager.enable(ModuleManager.java:1170)
+	at org.netbeans.core.startup.ModuleList.installNew(ModuleList.java:340)
+	at org.netbeans.core.startup.ModuleList.trigger(ModuleList.java:276)
+	at org.netbeans.core.startup.ModuleSystem.restore(ModuleSystem.java:301)
+	at org.netbeans.core.startup.Main.getModuleSystem(Main.java:181)
+	at org.netbeans.core.startup.Main.getModuleSystem(Main.java:150)
+	at org.netbeans.core.startup.Main.start(Main.java:307)
+	at org.netbeans.core.startup.TopThreadGroup.run(TopThreadGroup.java:123)
+	at java.lang.Thread.run(Thread.java:748)
+INFO [null]: Last record repeated more than 10 times, further logs of this record are ignored until the log record changes.
+INFO [null]: Last record repeated 48 times in total.
 WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: no such module /home/lete/AutoPsy/build/cluster/update_tracking/org-sleuthkit-autopsy-coreutils.xml at org.sleuthkit.autopsy.coreutils.PlatformUtil.getInstallPath(PlatformUtil.java:68)
 WARNING [org.netbeans.modules.autoupdate.ui.actions.AutoupdateSettings]: The property "netbeans.default_userdir_root" was not set!
 INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
@@ -175,7 +207,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.sleuthkit.autopsy.testing/3 [1.3.11 11 181023]
 	org.sleuthkit.autopsy.recentactivity/6 [6.0.15 15 181023]
 	org.sleuthkit.autopsy.modules.virustotalonlinecheck [1.0 160623]
-	org.sleuthkit.autopsy.modules.phathienvanbanmat [1.0 181023]
+	org.sleuthkit.autopsy.modules.phathienvanbanmat [1.0 181026]
 	org.sleuthkit.autopsy.kiemtravanban [1.0 181023]
 	org.sleuthkit.autopsy.imagegallery/2 [2.0.3 3 181023]
 	org.sleuthkit.autopsy.experimental [1.0 181023]
@@ -238,9 +270,9 @@ Input arguments:
 Compiler: HotSpot 64-Bit Tiered Compilers
 Heap memory usage: initial 24.0MB maximum 4096.0MB
 Non heap memory usage: initial 2.4MB maximum -1b
-Garbage collector: G1 Young Generation (Collections=18 Total time spent=0s)
+Garbage collector: G1 Young Generation (Collections=20 Total time spent=0s)
 Garbage collector: G1 Old Generation (Collections=0 Total time spent=0s)
-Classes: loaded=7453 total loaded=7453 unloaded 0
+Classes: loaded=7787 total loaded=7787 unloaded 0
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 4,019,384,320
 INFO [null]: Total physical memory 4,019,384,320
 WARNING [org.openide.filesystems.Ordering]: Found same position 1,400 for both Menu/Tools/org-netbeans-modules-autoupdate-ui-actions-PluginManagerAction.shadow and Menu/Tools/org-sleuthkit-autopsy-actions-OpenPythonModulesFolderAction.shadow
@@ -248,215 +280,29 @@ WARNING [org.openide.filesystems.Ordering]: Found same position 102 for both Men
 INFO [org.netbeans.core.windows.persistence]: [PersistenceManager.getTopComponentForID] Problem when deserializing TopComponent for tcID:'Danh sách'. Reason: Top component Danh sách could not be located or loaded from Components folder.
 INFO [org.netbeans.core.windows.persistence]: [PersistenceManager.getTopComponentForID] Problem when deserializing TopComponent for tcID:'DataContentTopComponent'. Reason: Top component DataContentTopComponent could not be located or loaded from Components folder.
 WARNING [org.openide.filesystems.Ordering]: Could not find both sides of relative ordering attribute master-help.xml/org-sleuthkit-autopsy-corecomponents-CustomAboutAction.shadow on Menu/Help
-32103 [MLog-Init-Reporter] INFO com.mchange.v2.log.MLog - MLog clients using slf4j logging.
-32279 [testvbm2_20181023_221600-case-action] INFO com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5 [built 02-January-2015 13:25:04 -0500; debug? true; trace: 10]
-32669 [testvbm2_20181023_221600-case-action] INFO com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@b10b5083 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@6e68aad3 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsx9y18t5bylt3a662|3c4da8a9, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 20, minPoolSize -> 5, nestedDataSource -> org.sqlite.SQLiteDataSource@71d4f524, preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> z8kfsx9y18t5bylt3a662|3eeccc4c, numHelperThreads -> 3 ]
+65481 [MLog-Init-Reporter] INFO com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+65584 [roridulieu_20181026_232827-case-action] INFO com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5 [built 02-January-2015 13:25:04 -0500; debug? true; trace: 10]
+65816 [roridulieu_20181026_232827-case-action] INFO com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@aa911ba0 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@6775ecc9 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsx9y1d621prpsdd58|11c913b0, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 20, minPoolSize -> 5, nestedDataSource -> org.sqlite.SQLiteDataSource@67a2352d, preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> z8kfsx9y1d621prpsdd58|661c6234, numHelperThreads -> 3 ]
 INFO [org.sleuthkit.datamodel.SleuthkitCase]: sqlite-jdbc version 3.8.11 loaded in native mode
 Tesseract OCR is installed and will be automatically applied to image files unless
 you've excluded the TesseractOCRParser from the default parser.
 Tesseract may dramatically slow down content extraction (TIKA-2359).
 As of Tika 1.15 (and prior versions), Tesseract is automatically called.
 In future versions of Tika, users may need to turn the TesseractOCRParser on via TikaConfig.
-SEVERE [global]
-java.lang.UnsatisfiedLinkError: no opencv_java330 in java.library.path
-	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1867)
-	at java.lang.Runtime.loadLibrary0(Runtime.java:870)
-	at java.lang.System.loadLibrary(System.java:1122)
-	at org.sleuthkit.autopsy.modules.phathienvanbanmat.PhatHienVanBanMatModule.loadOpenCVLib(PhatHienVanBanMatModule.java:59)
-	at org.sleuthkit.autopsy.modules.phathienvanbanmat.PhatHienVanBanMatModule.<init>(PhatHienVanBanMatModule.java:50)
-	at org.sleuthkit.autopsy.modules.phathienvanbanmat.PhatHienVanBanMatModuleFactory.createFileIngestModule(PhatHienVanBanMatModuleFactory.java:51)
-	at org.sleuthkit.autopsy.ingest.IngestModuleTemplate.createFileIngestModule(IngestModuleTemplate.java:85)
-	at org.sleuthkit.autopsy.ingest.FileIngestPipeline.<init>(FileIngestPipeline.java:61)
-	at org.sleuthkit.autopsy.ingest.DataSourceIngestJob.createIngestPipelines(DataSourceIngestJob.java:244)
-	at org.sleuthkit.autopsy.ingest.DataSourceIngestJob.<init>(DataSourceIngestJob.java:188)
-	at org.sleuthkit.autopsy.ingest.IngestJob.<init>(IngestJob.java:84)
-	at org.sleuthkit.autopsy.ingest.IngestManager.queueIngestJob(IngestManager.java:304)
-	at org.sleuthkit.autopsy.casemodule.AddImageWizardAddingProgressPanel.startIngest(AddImageWizardAddingProgressPanel.java:291)
-	at org.sleuthkit.autopsy.casemodule.AddImageWizardAddingProgressPanel.readSettings(AddImageWizardAddingProgressPanel.java:242)
-	at org.sleuthkit.autopsy.casemodule.AddImageWizardAddingProgressPanel.readSettings(AddImageWizardAddingProgressPanel.java:58)
-	at org.openide.WizardDescriptor.updateStateOpen(WizardDescriptor.java:867)
-	at org.openide.WizardDescriptor.updateState(WizardDescriptor.java:822)
-	at org.openide.WizardDescriptor._updateState(WizardDescriptor.java:800)
-	at org.openide.WizardDescriptor.goToNextStep(WizardDescriptor.java:1072)
-	at org.openide.WizardDescriptor.access$1900(WizardDescriptor.java:92)
-	at org.openide.WizardDescriptor$Listener$1.run(WizardDescriptor.java:2208)
-	at org.openide.WizardDescriptor.lazyValidate(WizardDescriptor.java:1516)
-	at org.openide.WizardDescriptor.access$2000(WizardDescriptor.java:92)
-	at org.openide.WizardDescriptor$Listener.actionPerformed(WizardDescriptor.java:2227)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openide.util.WeakListenerImpl$ProxyListener.invoke(WeakListenerImpl.java:487)
-	at com.sun.proxy.$Proxy12.actionPerformed(Unknown Source)
-	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
-	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
-	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
-	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
-	at java.awt.Component.processMouseEvent(Component.java:6539)
-	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
-	at java.awt.Component.processEvent(Component.java:6304)
-	at java.awt.Container.processEvent(Container.java:2239)
-	at java.awt.Component.dispatchEventImpl(Component.java:4889)
-	at java.awt.Container.dispatchEventImpl(Container.java:2297)
-	at java.awt.Component.dispatchEvent(Component.java:4711)
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
-	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
-	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
-	at java.awt.Container.dispatchEventImpl(Container.java:2283)
-	at java.awt.Window.dispatchEventImpl(Window.java:2746)
-	at java.awt.Component.dispatchEvent(Component.java:4711)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
-	at java.awt.EventQueue$4.run(EventQueue.java:733)
-	at java.awt.EventQueue$4.run(EventQueue.java:731)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-[catch] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
-	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
-	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
-	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
-	at java.awt.Dialog.show(Dialog.java:1084)
-	at org.netbeans.core.windows.services.NbPresenter.superShow(NbPresenter.java:1086)
-	at org.netbeans.core.windows.services.NbPresenter.doShow(NbPresenter.java:1136)
-	at org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:1108)
-	at org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:131)
-	at org.netbeans.modules.openide.util.NbMutexEventProvider$Event.doEventAccess(NbMutexEventProvider.java:138)
-	at org.netbeans.modules.openide.util.NbMutexEventProvider$Event.readAccess(NbMutexEventProvider.java:98)
-	at org.netbeans.modules.openide.util.LazyMutexImplementation.readAccess(LazyMutexImplementation.java:94)
-	at org.openide.util.Mutex.readAccess(Mutex.java:218)
-	at org.netbeans.core.windows.services.NbPresenter.show(NbPresenter.java:1093)
-	at java.awt.Component.show(Component.java:1671)
-	at java.awt.Component.setVisible(Component.java:1623)
-	at java.awt.Window.setVisible(Window.java:1014)
-	at java.awt.Dialog.setVisible(Dialog.java:1005)
-	at org.sleuthkit.autopsy.casemodule.AddImageAction.actionPerformed(AddImageAction.java:140)
-	at org.sleuthkit.autopsy.casemodule.NewCaseWizardAction$1.done(NewCaseWizardAction.java:120)
-	at javax.swing.SwingWorker$5.run(SwingWorker.java:737)
-	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:832)
-	at sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
-	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:842)
-	at javax.swing.Timer.fireActionPerformed(Timer.java:313)
-	at javax.swing.Timer$DoPostEvent.run(Timer.java:245)
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-SEVERE [global]
-java.util.NoSuchElementException
-	at org.sleuthkit.autopsy.casemodule.AddImageWizardIterator.nextPanel(AddImageWizardIterator.java:175)
-	at org.openide.WizardDescriptor$Listener$1.run(WizardDescriptor.java:2204)
-	at org.openide.WizardDescriptor.lazyValidate(WizardDescriptor.java:1516)
-	at org.openide.WizardDescriptor.access$2000(WizardDescriptor.java:92)
-	at org.openide.WizardDescriptor$Listener.actionPerformed(WizardDescriptor.java:2227)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openide.util.WeakListenerImpl$ProxyListener.invoke(WeakListenerImpl.java:487)
-	at com.sun.proxy.$Proxy12.actionPerformed(Unknown Source)
-	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
-	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
-	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
-	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
-	at java.awt.Component.processMouseEvent(Component.java:6539)
-	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
-	at java.awt.Component.processEvent(Component.java:6304)
-	at java.awt.Container.processEvent(Container.java:2239)
-	at java.awt.Component.dispatchEventImpl(Component.java:4889)
-	at java.awt.Container.dispatchEventImpl(Container.java:2297)
-	at java.awt.Component.dispatchEvent(Component.java:4711)
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
-	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
-	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
-	at java.awt.Container.dispatchEventImpl(Container.java:2283)
-	at java.awt.Window.dispatchEventImpl(Window.java:2746)
-	at java.awt.Component.dispatchEvent(Component.java:4711)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
-	at java.awt.EventQueue$4.run(EventQueue.java:733)
-	at java.awt.EventQueue$4.run(EventQueue.java:731)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-[catch] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
-	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
-	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
-	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
-	at java.awt.Dialog.show(Dialog.java:1084)
-	at org.netbeans.core.windows.services.NbPresenter.superShow(NbPresenter.java:1086)
-	at org.netbeans.core.windows.services.NbPresenter.doShow(NbPresenter.java:1136)
-	at org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:1108)
-	at org.netbeans.core.windows.services.NbPresenter.run(NbPresenter.java:131)
-	at org.netbeans.modules.openide.util.NbMutexEventProvider$Event.doEventAccess(NbMutexEventProvider.java:138)
-	at org.netbeans.modules.openide.util.NbMutexEventProvider$Event.readAccess(NbMutexEventProvider.java:98)
-	at org.netbeans.modules.openide.util.LazyMutexImplementation.readAccess(LazyMutexImplementation.java:94)
-	at org.openide.util.Mutex.readAccess(Mutex.java:218)
-	at org.netbeans.core.windows.services.NbPresenter.show(NbPresenter.java:1093)
-	at java.awt.Component.show(Component.java:1671)
-	at java.awt.Component.setVisible(Component.java:1623)
-	at java.awt.Window.setVisible(Window.java:1014)
-	at java.awt.Dialog.setVisible(Dialog.java:1005)
-	at org.sleuthkit.autopsy.casemodule.AddImageAction.actionPerformed(AddImageAction.java:140)
-	at org.sleuthkit.autopsy.casemodule.NewCaseWizardAction$1.done(NewCaseWizardAction.java:120)
-	at javax.swing.SwingWorker$5.run(SwingWorker.java:737)
-	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:832)
-	at sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
-	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:842)
-	at javax.swing.Timer.fireActionPerformed(Timer.java:313)
-	at javax.swing.Timer$DoPostEvent.run(Timer.java:245)
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-SEVERE [null]: Last record repeated again.
-SEVERE [null]: Last record repeated again.
-SEVERE [null]: Last record repeated again.
+JBIG2ImageReader not loaded. jbig2 files will be ignored
+See https://pdfbox.apache.org/2.0/dependencies.html#jai-image-io
+for optional dependencies.
+TIFFImageWriter not loaded. tiff files will not be processed
+See https://pdfbox.apache.org/2.0/dependencies.html#jai-image-io
+for optional dependencies.
+J2KImageReader not loaded. JPEG2000 files will not be processed.
+See https://pdfbox.apache.org/2.0/dependencies.html#jai-image-io
+for optional dependencies.
+Tesseract OCR is installed and will be automatically applied to image files unless
+you've excluded the TesseractOCRParser from the default parser.
+Tesseract may dramatically slow down content extraction (TIKA-2359).
+As of Tika 1.15 (and prior versions), Tesseract is automatically called.
+In future versions of Tika, users may need to turn the TesseractOCRParser on via TikaConfig.
 INFO [org.netbeans.core.windows.persistence]: [PersistenceManager.getTopComponentForID] Problem when deserializing TopComponent for tcID:'TimeLineTopComponent'. Reason: null
 Content: 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -465,7 +311,7 @@ Content:
   <instance class="org.sleuthkit.autopsy.timeline.TimeLineTopComponent"/>
 </settings>
 Class: class org.sleuthkit.autopsy.timeline.TimeLineTopComponent
-Source: MultiFileObject@34778777[Windows2Local/Components/TimeLineTopComponent.settings]
+Source: MultiFileObject@e1675c[Windows2Local/Components/TimeLineTopComponent.settings]
 Content: 
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
@@ -473,7 +319,7 @@ Content:
   <instance class="org.sleuthkit.autopsy.timeline.TimeLineTopComponent"/>
 </settings>
 Class: class org.sleuthkit.autopsy.timeline.TimeLineTopComponent
-Source: MultiFileObject@34778777[Windows2Local/Components/TimeLineTopComponent.settings]
+Source: MultiFileObject@e1675c[Windows2Local/Components/TimeLineTopComponent.settings]
 Caused: java.lang.NoSuchMethodException: org.sleuthkit.autopsy.timeline.TimeLineTopComponent.<init>()
 	at java.lang.Class.getConstructor0(Class.java:3082)
 	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
@@ -516,4 +362,7 @@ Content:
   <instance class="org.sleuthkit.autopsy.timeline.TimeLineTopComponent"/>
 </settings>
 ALL [null]: Class: class org.sleuthkit.autopsy.timeline.TimeLineTopComponent
-ALL [null]: Source: MultiFileObject@34778777[Windows2Local/Components/TimeLineTopComponent.settings]
+ALL [null]: Source: MultiFileObject@e1675c[Windows2Local/Components/TimeLineTopComponent.settings]
+2159017 [roridulieu_20181026_232827-case-action] INFO com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@129cfacd [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@a4f52ba6 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsx9y1d621prpsdd58|3faf97f9, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 20, minPoolSize -> 5, nestedDataSource -> org.sqlite.SQLiteDataSource@107a8b08, preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> z8kfsx9y1d621prpsdd58|3557fc89, numHelperThreads -> 3 ]
+INFO [org.sleuthkit.datamodel.SleuthkitCase]: sqlite-jdbc version 3.8.11 loaded in native mode
+INFO [org.netbeans.core.windows.persistence]: [PersistenceManager.getTopComponentForID] Problem when deserializing TopComponent for tcID:'T#00ECm#0020ki#1EBFmE82DB228EC5n#0020t#1EADp#0020'. Reason: Top component T#00ECm#0020ki#1EBFmE82DB228EC5n#0020t#1EADp#0020 could not be located or loaded from Components folder.
